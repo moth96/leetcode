@@ -1,7 +1,3 @@
-//#include<iostream>
-//#include<string>
-//#include<vector>
-//using namespace std;
 #include"solution.h"
 
 string reverseWords(string s) {
