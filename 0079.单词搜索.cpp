@@ -7,7 +7,7 @@ bool backtrack(vector<vector<char>>& board, string& word, int wordIndex, int x, 
     if (word.size() - 1 == wordIndex)
         return true;
     char tmp = board[x][y];
-    board[x][y] = 0;
+    board[x][y] = '\0';
     wordIndex++;
     if ((x > 0 && backtrack(board, word, wordIndex, x - 1, y))
         || (y > 0 && backtrack(board, word, wordIndex, x, y - 1))
