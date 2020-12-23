@@ -1,2 +1,3 @@
 # leetcode
-leetcode刷题代码存储
+
+* leetcode刷题代码存储
