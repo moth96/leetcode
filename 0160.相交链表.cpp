@@ -1,6 +1,3 @@
-#include"solution.h"
-#include"list.h"
-
 ListNode* getIntersectionNode(ListNode* headA, ListNode* headB)
 {
 	ListNode* q = headA;
